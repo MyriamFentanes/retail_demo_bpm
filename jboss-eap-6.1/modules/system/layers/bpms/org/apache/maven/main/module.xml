@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.maven">
+  <resources>
+
+<resource-root path="maven-settings-3.0.5.jar"/>
+<resource-root path="maven-model-builder-3.0.5.jar"/>
+<resource-root path="maven-repository-metadata-3.0.5.jar"/>
+<resource-root path="maven-model-3.0.5.jar"/>
+<resource-root path="maven-compat-3.0.5.jar"/>
+<resource-root path="maven-artifact-3.0.5.jar"/>
+<resource-root path="maven-aether-provider-3.0.5.jar"/>
+<resource-root path="maven-plugin-api-3.0.5.jar"/>
+<resource-root path="maven-settings-builder-3.0.5.jar"/>
+<resource-root path="maven-core-3.0.5.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.sonatype.aether" export="true"/>
+<module name="org.apache.lucene" export="true"/>
+<module name="javax.transaction.api" export="true"/>
+<module name="javax.validation.api" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.sonatype.sisu" export="true"/>
+<module name="javax.wsdl4j.api" export="true"/>
+<module name="javax.ws.rs.api" export="true"/>
+<module name="javax.annotation.api" export="true"/>
+<module name="javax.servlet.jsp.api" export="true"/>
+<module name="javax.ejb.api" export="true"/>
+<module name="javax.api" export="true"/>
+<module name="javax.servlet.api" export="true"/>
+<module name="javax.xml.bind.api" export="true"/>
+<module name="javax.xml.stream.api" export="true"/>
+<module name="javax.activation.api" export="true"/>
+<module name="javax.security.jacc.api" export="true"/>
+<module name="org.codehouse.plexus" export="true"/>
+<module name="org.apache.maven.wagon" export="true"/>
+<module name="javax.faces.api" export="true"/>
+<module name="org.sonatype.plexus" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="javax.persistence.api" export="true"/>
+<module name="org.jboss.osgi.resolver" export="true"/>
+<module name="javax.resource.api" export="true"/>
+<module name="javax.jms.api" export="true"/>
+
+  </dependencies>
+</module>

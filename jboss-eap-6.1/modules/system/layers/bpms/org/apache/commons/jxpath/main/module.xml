@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.commons.jxpath">
+  <resources>
+
+<resource-root path="commons-jxpath-1.3-redhat-3.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.apache.commons.beanutils" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.apache.xmlbeans" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="org.jaxen" export="true"/>
+<module name="org.jdom" export="true"/>
+<module name="javax.servlet.jsp.api" export="true"/>
+<module name="javax.servlet.api" export="true"/>
+<module name="javax.api" export="true"/>
+
+  </dependencies>
+</module>

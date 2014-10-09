@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="com.opensymphony.quartz">
+  <resources>
+
+<resource-root path="quartz-1.8.5.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.apache.commons.beanutils" export="true"/>
+<module name="org.apache.commons.logging" export="true"/>
+<module name="org.apache.commons.collections" export="true"/>
+<module name="javax.transaction.api" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.slf4j.jcl-over-slf4j" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="javax.rmi.api" export="true"/>
+<module name="javax.ejb.api" export="true"/>
+<module name="javax.jms.api" export="true"/>
+<module name="javax.mail.api" export="true"/>
+<module name="javax.servlet.api" export="true"/>
+<module name="javax.api" export="true"/>
+
+  </dependencies>
+</module>

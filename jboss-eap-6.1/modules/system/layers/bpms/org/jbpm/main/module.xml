@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.jbpm">
+  <resources>
+
+<resource-root path="jbpm-executor-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-persistence-jpa-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-human-task-core-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-bpmn2-emfextmodel-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-workitems-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-human-task-workitems-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-kie-services-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-bpmn2-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-flow-builder-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-runtime-manager-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-audit-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-shared-services-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-flow-6.0.2-redhat-2.jar"/>
+<resource-root path="jbpm-human-task-audit-6.0.2-redhat-2.jar"/>
+<resource-root path="META-INF"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.apache.commons.compress" export="true"/>
+<module name="org.apache.commons.exec" export="true"/>
+<module name="org.apache.commons.net" export="true"/>
+<module name="org.apache.commons.vfs" export="true"/>
+<module name="org.apache.cxf" export="true"/>
+<module name="org.apache.helix" export="true"/>
+<module name="org.uberfire" export="true"/>
+<module name="org.jboss.weld.core" export="true"/>
+<module name="org.mvel" export="true"/>
+<module name="org.sonatype.maven" export="true"/>
+
+  </dependencies>
+</module>

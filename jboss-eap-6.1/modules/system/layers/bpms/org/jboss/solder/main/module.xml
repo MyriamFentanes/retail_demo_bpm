@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.jboss.solder">
+  <resources>
+
+<resource-root path="solder-api-3.2.1.Final.jar"/>
+<resource-root path="solder-logging-3.2.1.Final.jar"/>
+<resource-root path="solder-impl-3.2.1.Final.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.jboss.log4j.logmanager" export="true"/>
+<module name="javax.el.api" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.sonatype.sisu" export="true"/>
+<module name="javax.interceptor.api" export="true"/>
+<module name="javax.annotation.api" export="true"/>
+<module name="javax.servlet.jsp.api" export="true"/>
+<module name="org.jboss.weld.spi" export="true"/>
+<module name="javax.api" export="true"/>
+<module name="javax.servlet.api" export="true"/>
+<module name="org.jboss.weld.api" export="true"/>
+<module name="org.slf4j.ext" export="true"/>
+<module name="org.slf4j" export="true"/>
+<module name="org.jboss.weld.core" export="true"/>
+<module name="javax.inject.api" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="org.jboss.logmanager" export="true"/>
+<module name="org.javassist" export="true"/>
+
+  </dependencies>
+</module>

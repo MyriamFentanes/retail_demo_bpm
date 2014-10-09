@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.uberfire">
+  <resources>
+
+<resource-root path="uberfire-io-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-commons-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-metadata-api-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-metadata-commons-io-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-nio2-model-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-nio2-api-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-nio2-fs-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-nio2-jgit-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-metadata-backend-lucene-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-security-api-0.3.2-redhat-2.jar"/>
+<resource-root path="uberfire-security-server-0.3.2-redhat-2.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.apache.camel" export="true"/>
+<module name="org.apache.helix" export="true"/>
+<module name="org.eclipse.jgit" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.mvel" export="true"/>
+<module name="org.sonatype.maven" export="true"/>
+
+  </dependencies>
+</module>

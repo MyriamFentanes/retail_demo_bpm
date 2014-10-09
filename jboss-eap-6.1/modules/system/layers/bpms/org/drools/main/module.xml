@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.drools">
+  <resources>
+
+<resource-root path="drools-templates-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-decisiontables-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-scorecards-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-core-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-persistence-jpa-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-simulator-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-compiler-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-guided-dtable-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-datamodel-api-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-commons-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-guided-template-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-test-scenarios-6.0.2-redhat-2.jar"/>
+<resource-root path="drools-workbench-models-guided-scorecard-6.0.2-redhat-2.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="com.sun.codemodel" export="true"/>
+<module name="org.apache.poi" export="true"/>
+<module name="org.jbpm" export="true"/>
+<module name="org.mvel" export="true"/>
+<module name="org.sonatype.maven" export="true"/>
+
+  </dependencies>
+</module>

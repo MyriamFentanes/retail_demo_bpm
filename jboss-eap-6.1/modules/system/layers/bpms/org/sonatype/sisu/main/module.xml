@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.sonatype.sisu">
+  <resources>
+
+<resource-root path="sisu-inject-bean-2.2.3.jar"/>
+<resource-root path="sisu-inject-plexus-2.2.3.jar"/>
+<resource-root path="sisu-guice-3.0.3-no_aop.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.osgi.core" export="true"/>
+<module name="org.sonatype.maven" export="true"/>
+<module name="org.sonatype.aether" export="true"/>
+<module name="org.slf4j.ext" export="true"/>
+<module name="org.codehouse.plexus" export="true"/>
+<module name="org.junit" export="true"/>
+<module name="org.slf4j" export="true"/>
+<module name="org.apache.maven.wagon" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="org.osgi.enterprise" export="true"/>
+<module name="org.apache.maven" export="true"/>
+<module name="org.sonatype.sisu" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="javax.inject.api" export="true"/>
+<module name="org.sonatype.plexus" export="true"/>
+<module name="javax.annotation.api" export="true"/>
+<module name="org.jboss.osgi.resolver" export="true"/>
+
+  </dependencies>
+</module>

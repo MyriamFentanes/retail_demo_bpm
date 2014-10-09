@@ -1,0 +1,690 @@
+14:25:55,355 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 36) JBAS012605: Activated the following JSF Implementations: [main, 1.2]
+14:25:55,371 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 38) JBAS011800: Activating Naming Subsystem
+14:25:55,369 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 47) JBAS015537: Activating WebServices Extension
+14:25:55,368 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 43) JBAS013171: Activating Security Subsystem
+14:25:55,407 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 30) JBAS010280: Activating Infinispan subsystem.
+14:25:55,488 INFO  [org.jboss.as.connector.logging] (MSC service thread 1-5) JBAS010408: Starting JCA Subsystem (IronJacamar 1.0.19.Final-redhat-2)
+14:25:55,608 INFO  [org.jboss.as.security] (MSC service thread 1-3) JBAS013170: Current PicketBox version=4.0.17.SP2-redhat-2
+14:25:55,794 INFO  [org.jboss.as.naming] (MSC service thread 1-8) JBAS011802: Starting Naming Service
+14:25:55,804 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-8) JBAS015400: Bound mail session [java:jboss/mail/Default]
+14:25:56,217 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 26) JBAS010403: Deploying JDBC-compliant driver class org.h2.Driver (version 1.3)
+14:25:56,755 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221000: live server is starting with configuration HornetQ Configuration (clustered=false,backup=false,sharedStore=true,journalDirectory=/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/data/messagingjournal,bindingsDirectory=/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/data/messagingbindings,largeMessagesDirectory=/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/data/messaginglargemessages,pagingDirectory=/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/data/messagingpaging)
+14:25:56,757 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221006: Waiting to obtain live lock
+14:25:56,814 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221013: Using NIO Journal
+14:25:57,040 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221034: Waiting to obtain live lock
+14:25:57,040 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221035: Live Server Obtained live lock
+14:25:57,076 INFO  [org.jboss.ws.common.management] (MSC service thread 1-7) JBWS022052: Starting JBoss Web Services - Stack CXF Server 4.1.4.Final-redhat-7
+14:25:57,590 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) JBAS010400: Bound data source [java:jboss/datasources/ExampleDS]
+14:25:57,692 INFO  [org.apache.coyote.http11] (MSC service thread 1-8) JBWEB003001: Coyote HTTP/1.1 initializing on : http-localhost/127.0.0.1:8080
+14:25:57,710 INFO  [org.apache.coyote.http11] (MSC service thread 1-8) JBWEB003000: Coyote HTTP/1.1 starting on: http-localhost/127.0.0.1:8080
+14:25:57,743 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-7) JBAS015012: Started FileSystemDeploymentService for directory /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments
+14:25:57,747 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) JBAS015876: Starting deployment of "dashbuilder.war" (runtime-name: "dashbuilder.war")
+14:25:57,747 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) JBAS015876: Starting deployment of "business-central.war" (runtime-name: "business-central.war")
+14:25:57,748 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) JBAS015876: Starting deployment of "jboss-mortgage-demo-ws.war" (runtime-name: "jboss-mortgage-demo-ws.war")
+14:25:57,799 INFO  [org.jboss.as.remoting] (MSC service thread 1-1) JBAS017100: Listening on 127.0.0.1:9999
+14:25:57,798 INFO  [org.jboss.as.remoting] (MSC service thread 1-8) JBAS017100: Listening on 127.0.0.1:4447
+14:25:59,458 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 127.0.0.1:5445 for CORE protocol
+14:25:59,472 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221020: Started Netty Acceptor version 3.6.6.Final-redhat-1-fd3c6b7 127.0.0.1:5455 for CORE protocol
+14:25:59,498 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221007: Server is now live
+14:25:59,501 INFO  [org.hornetq.core.server] (MSC service thread 1-4) HQ221001: HornetQ Server version 2.3.5.Final-redhat-2 (Monster Bee, 123) [a2f9c2f3-b901-11e3-aa94-9723fa95dba0] 
+14:25:59,674 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 50) JBAS011601: Bound messaging object to jndi name java:/ConnectionFactory
+14:25:59,686 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 51) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/RemoteConnectionFactory
+14:25:59,846 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010406: Registered connection factory java:/JmsXA
+14:26:00,007 INFO  [org.hornetq.ra] (MSC service thread 1-1) HornetQ resource adaptor started
+14:26:00,008 INFO  [org.jboss.as.connector.services.resourceadapters.ResourceAdapterActivatorService$ResourceAdapterActivator] (MSC service thread 1-1) IJ020002: Deployed: file://RaActivatorhornetq-ra
+14:26:00,010 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-1) JBAS010401: Bound JCA ConnectionFactory [java:/JmsXA]
+14:26:00,333 INFO  [org.jboss.ws.cxf.metadata] (MSC service thread 1-3) JBWS024061: Adding service endpoint metadata: id=com.redhat.bpms.examples.mortgage.CreditService
+ address=http://localhost:8080/jboss-mortgage-demo-ws/CreditService
+ implementor=com.redhat.bpms.examples.mortgage.CreditService
+ serviceName={http://mortgage.examples.bpms.redhat.com/}CreditServiceService
+ portName={http://mortgage.examples.bpms.redhat.com/}CreditServicePort
+ annotationWsdlLocation=null
+ wsdlLocationOverride=null
+ mtomEnabled=false
+14:26:00,605 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry xalan-2.7.1-redhat-3.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,606 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry serializer-2.7.1-redhat-3.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,606 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry xercesImpl-2.9.1-redhat-4.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,607 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry xml-apis-1.3.04.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,608 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry commons-lang-2.6-redhat-2.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,608 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry commons-io-2.1-redhat-2.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:00,609 WARN  [org.jboss.as.server.deployment] (MSC service thread 1-2) JBAS015960: Class Path entry log4j-1.2.16-redhat-2.jar in /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/jbpmmigration-0.12-redhat-2.jar  does not point to a valid jar for a Class-Path reference.
+14:26:01,181 INFO  [org.jboss.as.jpa] (MSC service thread 1-4) JBAS011401: Read persistence.xml for org.jbpm.domain
+14:26:01,465 INFO  [org.apache.cxf.service.factory.ReflectionServiceFactoryBean] (MSC service thread 1-3) Creating Service {http://mortgage.examples.bpms.redhat.com/}CreditServiceService from class com.redhat.bpms.examples.mortgage.CreditService
+14:26:02,030 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("com.google.guava:main") which may be changed or removed in future versions without notice.
+14:26:02,030 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("com.google.guava:main") which may be changed or removed in future versions without notice.
+14:26:02,031 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+14:26:02,031 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+14:26:02,031 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+14:26:02,032 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+14:26:02,032 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+14:26:02,032 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+14:26:02,038 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("com.google.guava:main") which may be changed or removed in future versions without notice.
+14:26:02,039 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("com.google.guava:main") which may be changed or removed in future versions without notice.
+14:26:02,047 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+14:26:02,048 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.beanutils:main") which may be changed or removed in future versions without notice.
+14:26:02,048 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.cli:main") which may be changed or removed in future versions without notice.
+14:26:02,049 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.cli:main") which may be changed or removed in future versions without notice.
+14:26:02,049 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+14:26:02,049 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+14:26:02,049 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.codec:main") which may be changed or removed in future versions without notice.
+14:26:02,050 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+14:26:02,050 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+14:26:02,050 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.collections:main") which may be changed or removed in future versions without notice.
+14:26:02,050 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+14:26:02,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.io:main") which may be changed or removed in future versions without notice.
+14:26:02,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+14:26:02,051 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+14:26:02,054 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+14:26:02,054 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.lang:main") which may be changed or removed in future versions without notice.
+14:26:02,054 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.pool:main") which may be changed or removed in future versions without notice.
+14:26:02,055 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.apache.commons.pool:main") which may be changed or removed in future versions without notice.
+14:26:02,063 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.dom4j:main") which may be changed or removed in future versions without notice.
+14:26:02,064 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.dom4j:main") which may be changed or removed in future versions without notice.
+14:26:02,064 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.as.transactions:main") which may be changed or removed in future versions without notice.
+14:26:02,064 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.as.transactions:main") which may be changed or removed in future versions without notice.
+14:26:02,065 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.as.web:main") which may be changed or removed in future versions without notice.
+14:26:02,065 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.as.web:main") which may be changed or removed in future versions without notice.
+14:26:02,065 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters:main") which may be changed or removed in future versions without notice.
+14:26:02,066 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.ironjacamar.jdbcadapters:main") which may be changed or removed in future versions without notice.
+14:26:02,066 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.jboss-transaction-spi:main") which may be changed or removed in future versions without notice.
+14:26:02,066 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.jboss-transaction-spi:main") which may be changed or removed in future versions without notice.
+14:26:02,067 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.jboss.vfs:main") which may be changed or removed in future versions without notice.
+14:26:02,067 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.jboss.vfs:main") which may be changed or removed in future versions without notice.
+14:26:02,067 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.weld.core:main") which may be changed or removed in future versions without notice.
+14:26:02,068 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.weld.core:main") which may be changed or removed in future versions without notice.
+14:26:02,068 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.weld.spi:main") which may be changed or removed in future versions without notice.
+14:26:02,068 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-6) JBAS018567: Deployment "deployment.dashbuilder.war" is using a private module ("org.jboss.weld.spi:main") which may be changed or removed in future versions without notice.
+14:26:02,069 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.jdom:main") which may be changed or removed in future versions without notice.
+14:26:02,069 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-6) JBAS018568: Deployment "deployment.dashbuilder.war" is using an unsupported module ("org.jdom:main") which may be changed or removed in future versions without notice.
+14:26:02,070 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.velocity:main") which may be changed or removed in future versions without notice.
+14:26:02,070 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.velocity:main") which may be changed or removed in future versions without notice.
+14:26:02,071 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.ws.xmlschema:main") which may be changed or removed in future versions without notice.
+14:26:02,071 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.ws.xmlschema:main") which may be changed or removed in future versions without notice.
+14:26:02,071 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.xml-resolver:main") which may be changed or removed in future versions without notice.
+14:26:02,072 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.apache.xml-resolver:main") which may be changed or removed in future versions without notice.
+14:26:02,076 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-core-asl:main") which may be changed or removed in future versions without notice.
+14:26:02,076 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-core-asl:main") which may be changed or removed in future versions without notice.
+14:26:02,077 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-jaxrs:main") which may be changed or removed in future versions without notice.
+14:26:02,077 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-jaxrs:main") which may be changed or removed in future versions without notice.
+14:26:02,078 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-mapper-asl:main") which may be changed or removed in future versions without notice.
+14:26:02,078 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-mapper-asl:main") which may be changed or removed in future versions without notice.
+14:26:02,079 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-xc:main") which may be changed or removed in future versions without notice.
+14:26:02,079 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.codehaus.jackson.jackson-xc:main") which may be changed or removed in future versions without notice.
+14:26:02,083 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.hornetq.ra:main") which may be changed or removed in future versions without notice.
+14:26:02,084 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.hornetq.ra:main") which may be changed or removed in future versions without notice.
+14:26:02,084 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.javassist:main") which may be changed or removed in future versions without notice.
+14:26:02,084 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.javassist:main") which may be changed or removed in future versions without notice.
+14:26:02,085 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jaxen:main") which may be changed or removed in future versions without notice.
+14:26:02,085 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jaxen:main") which may be changed or removed in future versions without notice.
+14:26:02,085 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.as.transactions:main") which may be changed or removed in future versions without notice.
+14:26:02,086 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.as.transactions:main") which may be changed or removed in future versions without notice.
+14:26:02,086 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.as.web:main") which may be changed or removed in future versions without notice.
+14:26:02,086 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.as.web:main") which may be changed or removed in future versions without notice.
+14:26:02,087 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.jboss-transaction-spi:main") which may be changed or removed in future versions without notice.
+14:26:02,087 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.jboss-transaction-spi:main") which may be changed or removed in future versions without notice.
+14:26:02,117 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.osgi.resolver:main") which may be changed or removed in future versions without notice.
+14:26:02,118 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.osgi.resolver:main") which may be changed or removed in future versions without notice.
+14:26:02,125 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jboss.vfs:main") which may be changed or removed in future versions without notice.
+14:26:02,125 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jboss.vfs:main") which may be changed or removed in future versions without notice.
+14:26:02,126 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.weld.core:main") which may be changed or removed in future versions without notice.
+14:26:02,126 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.weld.core:main") which may be changed or removed in future versions without notice.
+14:26:02,126 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.weld.spi:main") which may be changed or removed in future versions without notice.
+14:26:02,127 WARN  [org.jboss.as.dependency.private] (MSC service thread 1-2) JBAS018567: Deployment "deployment.business-central.war" is using a private module ("org.jboss.weld.spi:main") which may be changed or removed in future versions without notice.
+14:26:02,130 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jdom:main") which may be changed or removed in future versions without notice.
+14:26:02,131 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jdom:main") which may be changed or removed in future versions without notice.
+14:26:02,132 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jgroups:main") which may be changed or removed in future versions without notice.
+14:26:02,134 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.jgroups:main") which may be changed or removed in future versions without notice.
+14:26:02,134 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.joda.time:main") which may be changed or removed in future versions without notice.
+14:26:02,135 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.joda.time:main") which may be changed or removed in future versions without notice.
+14:26:02,161 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.yaml.snakeyaml:main") which may be changed or removed in future versions without notice.
+14:26:02,161 WARN  [org.jboss.as.dependency.unsupported] (MSC service thread 1-2) JBAS018568: Deployment "deployment.business-central.war" is using an unsupported module ("org.yaml.snakeyaml:main") which may be changed or removed in future versions without notice.
+14:26:02,171 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016002: Processing weld deployment dashbuilder.war
+14:26:02,374 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: dashbuilder.war
+14:26:02,615 INFO  [org.apache.cxf.endpoint.ServerImpl] (MSC service thread 1-3) Setting the server's publish address to be http://localhost:8080/jboss-mortgage-demo-ws/CreditService
+14:26:02,720 INFO  [org.jboss.weld.deployer] (MSC service thread 1-6) JBAS016002: Processing weld deployment business-central.war
+14:26:02,760 INFO  [org.jboss.weld.Version] (MSC service thread 1-4) WELD-000900 1.1.13 (redhat)
+14:26:02,873 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016008: Starting weld service for deployment dashbuilder.war
+14:26:02,982 INFO  [org.jboss.ws.cxf.deployment] (MSC service thread 1-3) JBWS024074: WSDL published to: file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/data/wsdl/jboss-mortgage-demo-ws.war/CreditServiceService.wsdl
+14:26:02,985 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) JBAS015539: Starting service jboss.ws.port-component-link
+14:26:02,988 INFO  [org.jboss.as.webservices] (MSC service thread 1-8) JBAS015539: Starting service jboss.ws.endpoint."jboss-mortgage-demo-ws.war"."com.redhat.bpms.examples.mortgage.CreditService"
+14:26:02,993 INFO  [org.jboss.ws.common.management] (MSC service thread 1-8) JBWS022050: Endpoint registered: jboss.ws:context=jboss-mortgage-demo-ws,endpoint=com.redhat.bpms.examples.mortgage.CreditService
+14:26:03,014 INFO  [org.jboss.as.ejb3.deployment.processors.EjbJndiBindingsDeploymentUnitProcessor] (MSC service thread 1-6) JNDI bindings for session bean named RetryTrackerSingleton in deployment unit deployment "business-central.war" are as follows:
+
+	java:global/business-central/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:app/business-central/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:module/RetryTrackerSingleton!org.kie.services.remote.jms.RetryTrackerSingleton
+	java:global/business-central/RetryTrackerSingleton
+	java:app/business-central/RetryTrackerSingleton
+	java:module/RetryTrackerSingleton
+
+14:26:03,014 INFO  [org.jboss.web] (ServerService Thread Pool -- 50) JBAS018210: Register web context: /jboss-mortgage-demo-ws
+14:26:03,375 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016005: Starting Services for CDI deployment: business-central.war
+14:26:03,461 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 50) JBAS011402: Starting Persistence Unit Service 'business-central.war#org.jbpm.domain'
+14:26:03,467 INFO  [org.jboss.weld.deployer] (MSC service thread 1-4) JBAS016008: Starting weld service for deployment business-central.war
+14:26:03,466 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 51) HQ221003: trying to deploy queue jms.queue.KIE.RESPONSE
+14:26:03,591 INFO  [org.jboss.as.ejb3] (MSC service thread 1-1) JBAS014142: Started message driven bean 'KieSessionRequesMessageBean' with 'hornetq-ra' resource adapter
+14:26:03,602 INFO  [org.jboss.as.ejb3] (MSC service thread 1-8) JBAS014142: Started message driven bean 'TaskServiceRequesMessageBean' with 'hornetq-ra' resource adapter
+14:26:03,604 INFO  [org.jboss.as.ejb3] (MSC service thread 1-3) JBAS014142: Started message driven bean 'JMSAuditProcessor' with 'hornetq-ra' resource adapter
+14:26:03,946 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 51) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.RESPONSE
+14:26:03,947 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 51) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.RESPONSE.ALL
+14:26:03,947 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 53) HQ221003: trying to deploy queue jms.queue.KIE.AUDIT
+14:26:03,949 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 53) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.AUDIT
+14:26:03,949 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 53) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.AUDIT.ALL
+14:26:03,950 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 52) HQ221003: trying to deploy queue jms.queue.KIE.TASK
+14:26:03,951 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 52) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.TASK
+14:26:03,952 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 52) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.TASK.ALL
+14:26:03,952 INFO  [org.hornetq.core.server] (ServerService Thread Pool -- 54) HQ221003: trying to deploy queue jms.queue.KIE.SESSION
+14:26:03,954 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 54) JBAS011601: Bound messaging object to jndi name java:jboss/exported/jms/queue/KIE.SESSION
+14:26:03,954 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 54) JBAS011601: Bound messaging object to jndi name java:/queue/KIE.SESSION.ALL
+14:26:04,010 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 50) HCANN000001: Hibernate Commons Annotations {4.0.1.Final-redhat-2}
+14:26:04,017 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 50) HHH000412: Hibernate Core {4.2.0.SP1-redhat-1}
+14:26:04,032 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000206: hibernate.properties not found
+14:26:04,040 INFO  [org.hibernate.cfg.Environment] (ServerService Thread Pool -- 50) HHH000021: Bytecode provider name : javassist
+14:26:04,080 INFO  [org.hibernate.ejb.Ejb3Configuration] (ServerService Thread Pool -- 50) HHH000204: Processing PersistenceUnitInfo [
+	name: org.jbpm.domain
+	...]
+14:26:05,702 INFO  [org.hibernate.service.jdbc.connections.internal.ConnectionProviderInitiator] (ServerService Thread Pool -- 50) HHH000130: Instantiating explicit connection provider: org.hibernate.ejb.connection.InjectedDataSourceConnectionProvider
+14:26:06,004 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 50) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:26:06,058 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 50) HHH000268: Transaction strategy: org.hibernate.engine.transaction.internal.jta.CMTTransactionFactory
+14:26:06,065 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 50) HHH000397: Using ASTQueryTranslatorFactory
+14:26:06,141 INFO  [org.hibernate.validator.internal.util.Version] (ServerService Thread Pool -- 50) HV000001: Hibernate Validator 4.3.1.Final-redhat-1
+14:26:06,963 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000228: Running hbm2ddl schema update
+14:26:06,964 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000102: Fetching database metadata
+14:26:06,979 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000396: Updating schema
+14:26:06,985 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Attachment
+14:26:06,988 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: BAMTaskSummary
+14:26:06,990 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: BooleanExpression
+14:26:06,992 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Content
+14:26:06,994 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ContextMappingInfo
+14:26:06,996 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: CorrelationKeyInfo
+14:26:06,998 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: CorrelationPropertyInfo
+14:26:07,000 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Deadline
+14:26:07,003 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Delegation_delegates
+14:26:07,005 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ErrorInfo
+14:26:07,007 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Escalation
+14:26:07,009 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: EventTypes
+14:26:07,011 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: I18NText
+14:26:07,012 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: NodeInstanceLog
+14:26:07,014 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification
+14:26:07,016 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_BAs
+14:26:07,018 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_Recipients
+14:26:07,020 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_email_header
+14:26:07,022 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: OrganizationalEntity
+14:26:07,024 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_BAs
+14:26:07,026 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_ExclOwners
+14:26:07,028 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_PotOwners
+14:26:07,030 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_Recipients
+14:26:07,032 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_Stakeholders
+14:26:07,033 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ProcessInstanceInfo
+14:26:07,035 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ProcessInstanceLog
+14:26:07,037 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Reassignment
+14:26:07,039 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Reassignment_potentialOwners
+14:26:07,041 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: RequestInfo
+14:26:07,043 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: SessionInfo
+14:26:07,045 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Task
+14:26:07,048 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: TaskDef
+14:26:07,050 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: TaskEvent
+14:26:07,052 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: VariableInstanceLog
+14:26:07,054 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: WorkItemInfo
+14:26:07,056 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: email_header
+14:26:07,058 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: task_comment
+14:26:07,059 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Attachment
+14:26:07,061 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: BAMTaskSummary
+14:26:07,063 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: BooleanExpression
+14:26:07,065 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Content
+14:26:07,068 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ContextMappingInfo
+14:26:07,070 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: CorrelationKeyInfo
+14:26:07,072 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: CorrelationPropertyInfo
+14:26:07,074 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Deadline
+14:26:07,077 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Delegation_delegates
+14:26:07,079 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ErrorInfo
+14:26:07,082 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Escalation
+14:26:07,084 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: EventTypes
+14:26:07,087 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: I18NText
+14:26:07,090 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: NodeInstanceLog
+14:26:07,092 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification
+14:26:07,095 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_BAs
+14:26:07,097 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_Recipients
+14:26:07,100 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Notification_email_header
+14:26:07,103 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: OrganizationalEntity
+14:26:07,106 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_BAs
+14:26:07,108 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_ExclOwners
+14:26:07,111 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_PotOwners
+14:26:07,113 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_Recipients
+14:26:07,116 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: PeopleAssignments_Stakeholders
+14:26:07,119 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ProcessInstanceInfo
+14:26:07,122 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: ProcessInstanceLog
+14:26:07,125 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Reassignment
+14:26:07,128 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Reassignment_potentialOwners
+14:26:07,131 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: RequestInfo
+14:26:07,134 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: SessionInfo
+14:26:07,137 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: Task
+14:26:07,140 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: TaskDef
+14:26:07,142 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: TaskEvent
+14:26:07,145 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: VariableInstanceLog
+14:26:07,148 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: WorkItemInfo
+14:26:07,151 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: email_header
+14:26:07,153 INFO  [java.sql.DatabaseMetaData] (ServerService Thread Pool -- 50) HHH000262: Table not found: task_comment
+14:26:07,439 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018210: Register web context: /dashbuilder
+14:26:07,481 INFO  [org.hibernate.tool.hbm2ddl.SchemaUpdate] (ServerService Thread Pool -- 50) HHH000232: Schema update complete
+14:26:07,484 INFO  [org.jboss.dashboard.ui.controller.ControllerServlet] (ServerService Thread Pool -- 58) Application Directory: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/.
+14:26:07,485 INFO  [org.jboss.dashboard.ui.controller.ControllerServlet] (ServerService Thread Pool -- 58) Application Config Directory: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc
+14:26:07,543 INFO  [org.jboss.dashboard.factory.Factory] (ServerService Thread Pool -- 58) Configuring Factory from directory: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/factory
+14:26:07,666 INFO  [org.jboss.dashboard.factory.Factory] (ServerService Thread Pool -- 58) Factory configured.
+14:26:07,894 INFO  [org.hibernate.cfg.Configuration] (ServerService Thread Pool -- 58) HHH000042: Configuring from file: hibernate.cfg.xml
+14:26:07,938 INFO  [org.hibernate.cfg.Configuration] (ServerService Thread Pool -- 58) HHH000041: Configured SessionFactory: null
+14:26:07,940 INFO  [org.jboss.dashboard.database.hibernate.HibernateInitializer] (ServerService Thread Pool -- 58) The underlying database is: h2
+14:26:08,462 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 58) HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+14:26:08,464 INFO  [org.hibernate.engine.transaction.internal.TransactionFactoryInitiator] (ServerService Thread Pool -- 58) HHH000399: Using default transaction strategy (direct JDBC transactions)
+14:26:08,466 INFO  [org.hibernate.hql.internal.ast.ASTQueryTranslatorFactory] (ServerService Thread Pool -- 58) HHH000397: Using ASTQueryTranslatorFactory
+14:26:08,920 WARN  [org.jboss.dashboard.database.DatabaseAutoSynchronizer] (ServerService Thread Pool -- 58) Running file 1-create-h2.sql
+14:26:09,311 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Starting org.jboss.dashboard.workspace.EnvelopesManagerImpl
+14:26:09,318 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Envelope /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/envelopes/Default_Envelope.zip
+14:26:09,377 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Envelope /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/envelopes/jbpmEnvelope.zip
+14:26:09,390 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Envelope Default_Envelope
+14:26:09,415 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Envelope jbpmEnvelope
+14:26:09,431 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Starting org.jboss.dashboard.workspace.ResourceGalleryManagerImpl
+14:26:09,438 INFO  [org.jboss.dashboard.cluster.ClusterNodesManager] (ServerService Thread Pool -- 58) Registering cluster node with ip address 192.168.100.77
+14:26:09,450 INFO  [org.jboss.dashboard.cluster.ClusterNodesManager] (ServerService Thread Pool -- 58) Successfuly resgister cluster node with ip address 192.168.100.77 and identifier 1015
+14:26:09,450 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Starting org.jboss.dashboard.workspace.SkinsManagerImpl
+14:26:09,455 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Skin /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/skins/Default_Skin.zip
+14:26:09,560 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Skin Default_Skin
+14:26:09,568 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Starting org.jboss.dashboard.workspace.LayoutsManagerImpl
+14:26:09,572 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/Default_Layout.zip
+14:26:09,586 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/Template_25-75.zip
+14:26:09,594 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Solder Config XML provider starting...
+14:26:09,595 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Loading XmlDocumentProvider: org.jboss.solder.config.xml.bootstrap.ResourceLoaderXmlDocumentProvider
+14:26:09,599 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/jbpmLayout.zip
+14:26:09,610 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/Template_25-50-25.zip
+14:26:09,614 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Reading XML file: vfs:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/uberfire-api-0.3.2-redhat-2.jar/META-INF/beans.xml
+14:26:09,622 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/Template_75-25.zip
+14:26:09,624 WARN  [org.jboss.solder.config.xml.model.ModelBuilder] (MSC service thread 1-6) Solder Config could not resolve XML namspace for: {}
+14:26:09,625 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Reading XML file: jar:file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/modules/system/layers/bpms/org/jbpm/main/jbpm-kie-services-6.0.2-redhat-2.jar!/META-INF/beans.xml
+14:26:09,628 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Reading XML file: jar:file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/modules/system/layers/bpms/org/uberfire/main/uberfire-security-server-0.3.2-redhat-2.jar!/META-INF/beans.xml
+14:26:09,630 WARN  [org.jboss.solder.config.xml.model.ModelBuilder] (MSC service thread 1-6) Solder Config could not resolve XML namspace for: {}
+14:26:09,631 INFO  [org.jboss.solder.config.xml.bootstrap.XmlConfigExtension] (MSC service thread 1-6) Reading XML file: vfs:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar/META-INF/beans.xml
+14:26:09,633 INFO  [org.jboss.dashboard.workspace.GraphicElementManagerImpl] (ServerService Thread Pool -- 58) Deploying to database Layout /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/layouts/Default_template_with_sliding_menu.zip
+14:26:09,633 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) starting errai cdi ...
+14:26:09,644 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout Default_Layout
+14:26:09,660 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout Default_template_with_sliding_menu
+14:26:09,661 INFO  [org.jboss.solder.Version] (MSC service thread 1-6) Solder 3.2.1.Final (build id: 3.2.1.Final)
+14:26:09,662 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_25-50-25
+14:26:09,664 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_25-75
+14:26:09,665 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout Template_75-25
+14:26:09,667 INFO  [org.jboss.dashboard.ui.resources.GraphicElement] (ServerService Thread Pool -- 58) Deploying files for org.jboss.dashboard.ui.resources.Layout jbpmLayout
+14:26:09,683 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Loading panels. Scanning dir: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/WEB-INF/etc/panels
+14:26:09,684 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/dashboard/dashb_html_editor.panel
+14:26:09,759 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/dashboard/dashb_kpi.panel
+14:26:09,764 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/dashboard/dashb_filter.panel
+14:26:09,776 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/dashboard/dashb_providermgr.panel
+14:26:09,778 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/system/workspaceExport/workspaceImportexport.panel
+14:26:09,781 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/system/dashboardExport/dashb_export.panel
+14:26:09,783 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/system/dataSourceManagement/DataSourceManager.panel
+14:26:09,792 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/system/dashboardImport/dashb_import.panel
+14:26:09,795 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_workspace_horiz.panel
+14:26:09,802 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/tree/treeMenu.panel
+14:26:09,809 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_sections_horiz.panel
+14:26:09,811 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_sections_vert.panel
+14:26:09,814 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_workspace.panel
+14:26:09,817 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/logout/logout.panel
+14:26:09,822 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_workspace_vert.panel
+14:26:09,824 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_language_horiz.panel
+14:26:09,829 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/breadCrumb/breadCrumb.panel
+14:26:09,833 INFO  [org.jboss.dashboard.workspace.PanelsProvidersManagerImpl] (ServerService Thread Pool -- 58) Reading file: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/dashbuilder.war/./WEB-INF/etc/panels/navigation/navigator_sections.panel
+14:26:10,099 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.dtablexls.backend.server.DecisionTableXLSServiceImpl
+14:26:10,122 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) Parsing KPI's XML file: WEB-INF/etc/appdata/initialData/showcaseKPIs.xml
+14:26:10,189 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.dashboard.renderer.service.impl.DashboardRendererServiceImpl
+14:26:10,260 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.drltext.backend.server.DRLTextEditorServiceImpl
+14:26:11,109 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -4882456 bytes bytes. Total = 1.129 Gb. Free = 1.038 Gb (91.94183%)
+14:26:11,516 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -41335824 bytes bytes. Total = 1.077 Gb. Free = 1,022.106 Mb (92.707985%)
+14:26:12,001 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 84.635 Mb bytes. Total = 1.159 Gb. Free = 1.081 Gb (93.23847%)
+14:26:12,427 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -113189584 bytes bytes. Total = 1.053 Gb. Free = 998.113 Mb (92.546394%)
+14:26:12,826 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 112.799 Mb bytes. Total = 1.162 Gb. Free = 1.084 Gb (93.23933%)
+14:26:13,248 INFO  [org.jboss.errai.common.metadata.MetaDataScanner] (Thread-78) added class scanning extensions: org.jboss.errai.common.metadata.JbossVFsTypeHandler
+14:26:13,798 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 17.289 Mb bytes. Total = 1.162 Gb. Free = 1.067 Gb (91.82115%)
+14:26:14,258 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 19.717 Mb bytes. Total = 1.167 Gb. Free = 1.079 Gb (92.54137%)
+14:26:14,947 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 56.144 Mb bytes. Total = 1.164 Gb. Free = 1.065 Gb (91.462524%)
+14:26:15,506 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00000 - Data provider created. dataprovider_63791223772073037, Expense reports demo.
+14:26:15,506 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00000 - Data provider created. dataprovider_29881353499006573, Sales dashboard demo.
+14:26:15,507 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_64011223773089901, Expense evolution.
+14:26:15,507 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30301353506280659, Expected pipeline.
+14:26:15,507 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30361353506582145, By status.
+14:26:15,507 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30651353683614640, By sales person.
+14:26:15,508 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30331353506453066, By sales person.
+14:26:15,508 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30831353686700387, By product.
+14:26:15,508 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30391353506887646, By product.
+14:26:15,508 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30801353685378049, By customer.
+14:26:15,509 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30281353675541472, By country.
+14:26:15,509 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_21591363786594721, Amount by status.
+14:26:15,509 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30861353687605533, Amount by probability (%).
+14:26:15,509 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30771353684719633, - New indicator -.
+14:26:15,510 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_64061223773274641, Expense reports table.
+14:26:15,510 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_63931223772633377, Expenses by department USD.
+14:26:15,510 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_63901223772516707, Expenses by office USD.
+14:26:15,510 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30461354643057084, Expenses by user.
+14:26:15,511 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30441353507392054, Opportunities by closing date (USD).
+14:26:15,511 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30101353505177974, Opportunities by country.
+14:26:15,511 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30041353504912610, Opportunities by employee.
+14:26:15,511 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30011353503663716, Opportunities by status.
+14:26:15,512 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30251353675275870, Pipeline status.
+14:26:15,512 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30621353683547916, Sales evolution.
+14:26:15,512 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_29761353668431694, Sales report table.
+14:26:16,031 INFO  [org.jboss.errai.reflections.Reflections] (Thread-78) Reflections took 2780 ms to scan 95 urls, producing 1073 keys and 5977 values [using 2 cores]
+14:26:17,476 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.validation.file.FileNameValidationServiceImpl
+14:26:17,482 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.source.SourceServicesImpl
+14:26:17,486 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.security.KieWorkbenchSecurityServiceImpl
+14:26:17,497 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.backend.validation.java.IdentifierValidationServiceImpl
+14:26:17,570 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DataServiceEntryPointImpl
+14:26:17,575 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.KieSessionEntryPointImpl
+14:26:17,613 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl
+14:26:17,644 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.rule.backend.server.GuidedRuleEditorServiceImpl
+14:26:17,664 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.rule.backend.server.EnumDropdownServiceImpl
+14:26:17,703 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.testscenario.backend.server.ScenarioTestEditorServiceImpl
+14:26:17,919 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.es.backend.server.ExecutorServiceEntryPointImpl
+14:26:17,935 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.template.server.GuidedRuleTemplateEditorServiceImpl
+14:26:17,948 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.config.ResourceConfigServiceImpl
+14:26:17,963 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.version.VersionServiceImpl
+14:26:17,984 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service class org.guvnor.common.services.backend.file.RenameServiceImpl
+14:26:17,992 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.metadata.MetadataServiceImpl
+14:26:18,000 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service class org.guvnor.common.services.backend.file.CopyServiceImpl
+14:26:18,003 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.config.AppConfigServiceImpl
+14:26:18,017 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service class org.guvnor.common.services.backend.file.DeleteServiceImpl
+14:26:18,045 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.metadata.CategoryServiceImpl
+14:26:18,073 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.backend.rulenames.RuleNamesServiceImpl
+14:26:18,258 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.search.backend.server.SearchServiceImpl
+14:26:19,077 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.ProjectServiceImpl
+14:26:19,079 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.KModuleServiceImpl
+14:26:19,090 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.project.backend.server.POMServiceImpl
+14:26:19,119 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.scorecardxls.backend.server.ScoreCardXLSServiceImpl
+14:26:19,269 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl
+14:26:19,336 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.globals.backend.server.GlobalsEditorServiceImpl
+14:26:19,626 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) Parsing KPI's XML file: WEB-INF/etc/appdata/initialData/jbpmKPIs.xml
+14:26:19,676 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.panels.modeler.backend.FormModelerServiceImpl
+14:26:20,443 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 26.121 Mb bytes. Total = 1.192 Gb. Free = 1.08 Gb (90.58115%)
+14:26:21,093 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.m2repo.backend.server.M2RepoServiceImpl
+14:26:21,105 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -1407776 bytes bytes. Total = 1.19 Gb. Free = 1.078 Gb (90.582466%)
+14:26:21,688 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.datamodeller.backend.server.DataModelerServiceImpl
+14:26:21,704 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 6.264 Mb bytes. Total = 1.197 Gb. Free = 1.084 Gb (90.61315%)
+14:26:22,186 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -1910640 bytes bytes. Total = 1.194 Gb. Free = 1.083 Gb (90.68646%)
+14:26:22,699 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed 8.214 Mb bytes. Total = 1.202 Gb. Free = 1.091 Gb (90.72758%)
+14:26:23,200 INFO  [org.jboss.dashboard.profiler.memory.MemoryProfiler] (ServerService Thread Pool -- 58) Freed -4699000 bytes bytes. Total = 1.199 Gb. Free = 1.086 Gb (90.5843%)
+14:26:23,228 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.workitems.backend.server.WorkItemsEditorServiceImpl
+14:26:23,356 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00000 - Data provider created. dataprovider_30861353511610610, jBPM Count Processes.
+14:26:23,356 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00000 - Data provider created. dataprovider_29781353670809093, jBPM Process Summary.
+14:26:23,356 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00000 - Data provider created. dataprovider_31171353947281370, jBPM Task Summary.
+14:26:23,357 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_29741354189063608, Tasks completed by date.
+14:26:23,357 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30361353506582146, Tasks by status.
+14:26:23,357 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30531353942661507, Process instances by status.
+14:26:23,357 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_21261373392004451, Process initiated by date.
+14:26:23,358 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_29671354183712341, Process duration.
+14:26:23,358 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30751353944093386, Process completed by date.
+14:26:23,358 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_21351361956566198, Number of tasks per user.
+14:26:23,358 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_31261353948417434, Number of task instances.
+14:26:23,359 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_30571353683160264, Instances started by user.
+14:26:23,359 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_31331353949095782, Instances by status.
+14:26:23,359 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_29771353670707848, Instances by process.
+14:26:23,359 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_31361353949675344, By version.
+14:26:23,360 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_29711354187660609, Tasks duration.
+14:26:23,360 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_31201353947556129, Tasks started by date.
+14:26:23,360 INFO  [org.jboss.dashboard.kpi.KPIInitialModule] (ServerService Thread Pool -- 58) BAM_00001 - Business indicator created. kpi_31291353948572804, Users with tasks.
+14:26:23,516 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.FileNavigatorServiceImpl
+14:26:23,532 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.WorkbenchServicesImpl
+14:26:23,577 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.VFSServicesServerImpl
+14:26:23,613 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.plugin.RuntimePluginsServiceServerImpl
+14:26:23,616 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.repositories.RepositoryServiceEditorImpl
+14:26:23,626 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.organizationalunit.OrganizationalUnitServiceImpl
+14:26:23,631 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.uberfire.backend.server.repositories.RepositoryServiceImpl
+14:26:23,669 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.defaulteditor.backend.server.DefaultEditorServiceImpl
+14:26:23,758 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.services.datamodel.backend.server.IncrementalDataModelServiceImpl
+14:26:23,965 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.dtable.backend.server.GuidedDecisionTableEditorServiceImpl
+14:26:23,997 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.FormModelerProcessStarterEntryPointImpl
+14:26:24,001 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TypeRoleServiceEntryPointImpl
+14:26:24,012 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.TaskServiceEntryPointImpl
+14:26:24,022 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.FormServiceEntryPointImpl
+14:26:24,029 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.console.ng.ht.backend.server.UserServiceEntryPointImpl
+14:26:24,740 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.designer.server.service.DefaultDesignerAssetService
+14:26:24,968 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.guided.scorecard.backend.server.GuidedScoreCardEditorServiceImpl
+14:26:25,002 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.common.services.builder.BuildServiceImpl
+14:26:25,040 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.kie.workbench.common.screens.projecteditor.backend.server.ProjectScreenServiceImpl
+14:26:25,071 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.guvnor.inbox.backend.server.InboxServiceImpl
+14:26:25,233 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @SessionScoped class org.jbpm.formModeler.renderer.backend.service.FormRenderingServiceImpl
+14:26:25,236 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.jbpm.formModeler.renderer.backend.service.FormRendererIncluderServiceImpl
+14:26:25,257 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.dsltext.backend.server.DSLTextEditorServiceImpl
+14:26:25,283 INFO  [org.jboss.errai.cdi.server.CDIExtensionPoints] (MSC service thread 1-6) discovered errai service: public@Service @ApplicationScoped class org.drools.workbench.screens.enums.backend.server.EnumServiceImpl
+14:26:25,527 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-6) Found kmodule: vfs:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/WEB-INF/lib/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar/META-INF/kmodule.xml
+14:26:25,529 INFO  [org.drools.compiler.kie.builder.impl.ClasspathKieProject] (MSC service thread 1-6) Virtual file physical path = /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/tmp/vfs/deployment3a0614456b0267d8/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar-d8775a17f39ee17d/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar
+14:26:25,599 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-6) KieModule was added:ZipKieModule[ ReleaseId=org.drools:drools-wb-rest-defaultapprover:6.0.2-redhat-2file=/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/tmp/vfs/deployment3a0614456b0267d8/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar-d8775a17f39ee17d/drools-wb-rest-defaultapprover-6.0.2-redhat-2.jar]
+14:26:27,789 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.RequestScoped() used on injection point [field] @RequestScoped @Inject private org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl.deploymentUnits
+14:26:27,854 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl.identity
+14:26:27,855 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.kie.workbench.common.screens.explorer.backend.server.ExplorerServiceImpl.sessionInfo
+14:26:27,911 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.uberfire.backend.server.UserServicesImpl.identity
+14:26:27,941 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.RequestScoped() used on injection point [field] @RequestScoped @Inject private org.jbpm.designer.repository.vfs.VFSRepository.descriptor
+14:26:27,959 WARN  [org.jboss.weld.Bootstrap] (MSC service thread 1-6) WELD-001440 Scope type @javax.enterprise.context.SessionScoped() used on injection point [field] @Inject @SessionScoped private org.guvnor.inbox.backend.server.InboxServiceImpl.identity
+14:26:28,264 INFO  [org.apache.sshd.common.util.SecurityUtils] (MSC service thread 1-6) BouncyCastle not registered, using the default JCE provider
+14:26:29,365 INFO  [org.guvnor.m2repo.backend.server.GuvnorM2Repository] (MSC service thread 1-6) Maven Repository root set to: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/bin
+14:26:31,803 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-6) KieModule was added:ZipKieModule[ ReleaseId=com.redhat.bpms.examples:mortgage:1file=/home/mfentanes/.m2/repository/com/redhat/bpms/examples/mortgage/1/mortgage-1.jar]
+14:26:33,054 WARN  [org.drools.persistence.SingleSessionCommandService] (MSC service thread 1-6) Could not commit session: org.drools.persistence.SessionNotFoundException: Could not find session data for id 1
+	at org.drools.persistence.SingleSessionCommandService.initExistingKnowledgeSession(SingleSessionCommandService.java:239) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.SingleSessionCommandService.<init>(SingleSessionCommandService.java:194) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [rt.jar:1.7.0_65]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.buildCommandService(KnowledgeStoreServiceImpl.java:101) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.loadKieSession(KnowledgeStoreServiceImpl.java:84) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.loadKieSession(KnowledgeStoreServiceImpl.java:36) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.kie.internal.persistence.jpa.JPAKnowledgeService.loadStatefulKnowledgeSession(JPAKnowledgeService.java:130) [kie-internal-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.factory.JPASessionFactory.findKieSessionById(JPASessionFactory.java:52) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.SingletonRuntimeManager.init(SingletonRuntimeManager.java:87) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.RuntimeManagerFactoryImpl.newSingletonRuntimeManager(RuntimeManagerFactoryImpl.java:71) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.RuntimeManagerFactoryImpl$Proxy$_$$_WeldClientProxy.newSingletonRuntimeManager(RuntimeManagerFactoryImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.AbstractDeploymentService.commonDeploy(AbstractDeploymentService.java:83) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.KModuleDeploymentService.deploy(KModuleDeploymentService.java:152) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.KModuleDeploymentService$Proxy$_$$_WeldClientProxy.deploy(KModuleDeploymentService$Proxy$_$$_WeldClientProxy.java) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl.initDeployments(DeploymentManagerEntryPointImpl.java:81) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl$Proxy$_$$_WeldClientProxy.initDeployments(DeploymentManagerEntryPointImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.AdministrationServiceImpl.bootstrapDeployments(AdministrationServiceImpl.java:185) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.AdministrationServiceImpl$Proxy$_$$_WeldClientProxy.bootstrapDeployments(AdministrationServiceImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.kie.workbench.backend.AppSetup.assertPlayground(AppSetup.java:125) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_65]
+	at org.jboss.weld.util.reflection.SecureReflections$13.work(SecureReflections.java:267) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAsInvocation(SecureReflectionAccess.java:137) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflections.invoke(SecureReflections.java:263) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.jlr.WeldMethodImpl.invoke(WeldMethodImpl.java:174) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.AbstractClassBean.defaultPostConstruct(AbstractClassBean.java:402) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.ManagedBean$ManagedBeanInjectionTarget.postConstruct(ManagedBean.java:178) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:298) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.context.AbstractContext.get(AbstractContext.java:101) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:90) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:79) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.kie.workbench.backend.AppSetup$Proxy$_$$_WeldClientProxy.toString(AppSetup$Proxy$_$$_WeldClientProxy.java) [classes:]
+	at org.uberfire.commons.services.cdi.StartupBeanExtension.runPostConstruct(StartupBeanExtension.java:83) [uberfire-commons-0.3.2-redhat-2.jar:0.3.2-redhat-2]
+	at org.uberfire.commons.services.cdi.StartupBeanExtension.afterDeploymentValidation(StartupBeanExtension.java:67) [uberfire-commons-0.3.2-redhat-2.jar:0.3.2-redhat-2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_65]
+	at org.jboss.weld.util.reflection.SecureReflections$13.work(SecureReflections.java:267) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAsInvocation(SecureReflectionAccess.java:137) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflections.invoke(SecureReflections.java:263) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.jlr.WeldMethodImpl.invokeOnInstance(WeldMethodImpl.java:170) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.ForwardingWeldMethod.invokeOnInstance(ForwardingWeldMethod.java:51) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.injection.MethodInjectionPoint.invokeOnInstanceWithSpecialValue(MethodInjectionPoint.java:154) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:245) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:233) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:213) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:75) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:46) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:31) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:382) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.as.weld.WeldStartService.start(WeldStartService.java:64) [jboss-as-weld-7.2.1.Final-redhat-10.jar:7.2.1.Final-redhat-10]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_65]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_65]
+
+14:26:33,309 WARN  [org.jbpm.runtime.manager.impl.cdi.InjectableRegisterableItemsFactory] (MSC service thread 1-6) Exception while evalutating work item handler prodcuers WELD-000049 Unable to invoke [method] @PostConstruct public org.jbpm.console.ng.bd.service.VFSFileServiceImpl.init() on org.jbpm.console.ng.bd.service.VFSFileServiceImpl@5ce66212
+14:26:33,797 ERROR [org.drools.core.xml.ExtensibleXmlParser] (MSC service thread 1-6) (null: 3, 53): cvc-complex-type.2.4.a: Invalid content was found starting with element 'bpmn2:documentation'. One of '{"http://www.omg.org/spec/BPMN/20100524/MODEL":import, "http://www.omg.org/spec/BPMN/20100524/MODEL":extension, "http://www.omg.org/spec/BPMN/20100524/MODEL":rootElement, "http://www.omg.org/spec/BPMN/20100524/DI":BPMNDiagram, "http://www.omg.org/spec/BPMN/20100524/MODEL":relationship}' is expected.
+14:26:34,024 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (MSC service thread 1-6) KieModule was added:ZipKieModule[ ReleaseId=com.redhat.process:retail:1.0file=/home/mfentanes/.m2/repository/com/redhat/process/retail/1.0/retail-1.0.jar]
+14:26:34,247 ERROR [org.drools.core.xml.ExtensibleXmlParser] (MSC service thread 1-6) (null: 3, 53): cvc-complex-type.2.4.a: Invalid content was found starting with element 'bpmn2:documentation'. One of '{"http://www.omg.org/spec/BPMN/20100524/MODEL":import, "http://www.omg.org/spec/BPMN/20100524/MODEL":extension, "http://www.omg.org/spec/BPMN/20100524/MODEL":rootElement, "http://www.omg.org/spec/BPMN/20100524/DI":BPMNDiagram, "http://www.omg.org/spec/BPMN/20100524/MODEL":relationship}' is expected.
+14:26:34,635 WARN  [org.drools.persistence.SingleSessionCommandService] (MSC service thread 1-6) Could not commit session: org.drools.persistence.SessionNotFoundException: Could not find session data for id 17
+	at org.drools.persistence.SingleSessionCommandService.initExistingKnowledgeSession(SingleSessionCommandService.java:239) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.SingleSessionCommandService.<init>(SingleSessionCommandService.java:194) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:526) [rt.jar:1.7.0_65]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.buildCommandService(KnowledgeStoreServiceImpl.java:101) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.loadKieSession(KnowledgeStoreServiceImpl.java:84) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.drools.persistence.jpa.KnowledgeStoreServiceImpl.loadKieSession(KnowledgeStoreServiceImpl.java:36) [drools-persistence-jpa-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.kie.internal.persistence.jpa.JPAKnowledgeService.loadStatefulKnowledgeSession(JPAKnowledgeService.java:130) [kie-internal-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.factory.JPASessionFactory.findKieSessionById(JPASessionFactory.java:52) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.SingletonRuntimeManager.init(SingletonRuntimeManager.java:87) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.RuntimeManagerFactoryImpl.newSingletonRuntimeManager(RuntimeManagerFactoryImpl.java:71) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.runtime.manager.impl.RuntimeManagerFactoryImpl$Proxy$_$$_WeldClientProxy.newSingletonRuntimeManager(RuntimeManagerFactoryImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-runtime-manager-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.AbstractDeploymentService.commonDeploy(AbstractDeploymentService.java:83) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.KModuleDeploymentService.deploy(KModuleDeploymentService.java:152) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.kie.services.impl.KModuleDeploymentService$Proxy$_$$_WeldClientProxy.deploy(KModuleDeploymentService$Proxy$_$$_WeldClientProxy.java) [jbpm-kie-services-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl.initDeployments(DeploymentManagerEntryPointImpl.java:81) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.DeploymentManagerEntryPointImpl$Proxy$_$$_WeldClientProxy.initDeployments(DeploymentManagerEntryPointImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.AdministrationServiceImpl.bootstrapDeployments(AdministrationServiceImpl.java:185) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.jbpm.console.ng.bd.backend.server.AdministrationServiceImpl$Proxy$_$$_WeldClientProxy.bootstrapDeployments(AdministrationServiceImpl$Proxy$_$$_WeldClientProxy.java) [jbpm-console-ng-business-domain-backend-6.0.2-redhat-2.jar:6.0.2-redhat-2]
+	at org.kie.workbench.backend.AppSetup.assertPlayground(AppSetup.java:125) [classes:]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_65]
+	at org.jboss.weld.util.reflection.SecureReflections$13.work(SecureReflections.java:267) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAsInvocation(SecureReflectionAccess.java:137) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflections.invoke(SecureReflections.java:263) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.jlr.WeldMethodImpl.invoke(WeldMethodImpl.java:174) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.AbstractClassBean.defaultPostConstruct(AbstractClassBean.java:402) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.ManagedBean$ManagedBeanInjectionTarget.postConstruct(ManagedBean.java:178) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.ManagedBean.create(ManagedBean.java:298) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.context.AbstractContext.get(AbstractContext.java:101) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.proxy.ContextBeanInstance.getInstance(ContextBeanInstance.java:90) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bean.proxy.ProxyMethodHandler.invoke(ProxyMethodHandler.java:79) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.kie.workbench.backend.AppSetup$Proxy$_$$_WeldClientProxy.toString(AppSetup$Proxy$_$$_WeldClientProxy.java) [classes:]
+	at org.uberfire.commons.services.cdi.StartupBeanExtension.runPostConstruct(StartupBeanExtension.java:83) [uberfire-commons-0.3.2-redhat-2.jar:0.3.2-redhat-2]
+	at org.uberfire.commons.services.cdi.StartupBeanExtension.afterDeploymentValidation(StartupBeanExtension.java:67) [uberfire-commons-0.3.2-redhat-2.jar:0.3.2-redhat-2]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) [rt.jar:1.7.0_65]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57) [rt.jar:1.7.0_65]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) [rt.jar:1.7.0_65]
+	at java.lang.reflect.Method.invoke(Method.java:606) [rt.jar:1.7.0_65]
+	at org.jboss.weld.util.reflection.SecureReflections$13.work(SecureReflections.java:267) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.run(SecureReflectionAccess.java:52) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflectionAccess.runAsInvocation(SecureReflectionAccess.java:137) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.util.reflection.SecureReflections.invoke(SecureReflections.java:263) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.jlr.WeldMethodImpl.invokeOnInstance(WeldMethodImpl.java:170) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.introspector.ForwardingWeldMethod.invokeOnInstance(ForwardingWeldMethod.java:51) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.injection.MethodInjectionPoint.invokeOnInstanceWithSpecialValue(MethodInjectionPoint.java:154) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:245) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.sendEvent(ObserverMethodImpl.java:233) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.event.ObserverMethodImpl.notify(ObserverMethodImpl.java:213) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AbstractContainerEvent.fire(AbstractContainerEvent.java:75) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AbstractDeploymentContainerEvent.fire(AbstractDeploymentContainerEvent.java:46) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.events.AfterDeploymentValidationImpl.fire(AfterDeploymentValidationImpl.java:31) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.weld.bootstrap.WeldBootstrap.validateBeans(WeldBootstrap.java:382) [weld-core-1.1.13.Final-redhat-1.jar:1.1.13.Final-redhat-1]
+	at org.jboss.as.weld.WeldStartService.start(WeldStartService.java:64) [jboss-as-weld-7.2.1.Final-redhat-10.jar:7.2.1.Final-redhat-10]
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.startService(ServiceControllerImpl.java:1811)
+	at org.jboss.msc.service.ServiceControllerImpl$StartTask.run(ServiceControllerImpl.java:1746)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145) [rt.jar:1.7.0_65]
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615) [rt.jar:1.7.0_65]
+	at java.lang.Thread.run(Thread.java:745) [rt.jar:1.7.0_65]
+
+14:26:34,698 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'type' to 'kjar'.
+14:26:34,698 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'drools.dateformat' to 'dd-MMM-yyyy'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'drools.defaultlanguage' to 'en'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'rule-modeller-onlyShowDSLStatements' to 'false'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'designer.context' to 'designer'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'drools.defaultcountry' to 'US'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'drools.datetimeformat' to 'dd-MMM-yyyy hh:mm:ss'.
+14:26:34,699 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'build.enable-incremental' to 'true'.
+14:26:34,700 INFO  [org.guvnor.common.services.backend.config.ApplicationPreferencesLoader] (MSC service thread 1-6) Setting preference 'designer.profile' to 'jbpm'.
+14:26:34,716 INFO  [org.jbpm.executor.impl.ExecutorImpl] (MSC service thread 1-6) Starting Executor Component ...
+ 	 - Thread Pool Size: 1
+ 	 - Interval: 3 Seconds
+ 	 - Retries per Request: 3
+
+14:26:34,772 INFO  [org.kie.services.remote.jms.RetryTrackerSingleton] (ServerService Thread Pool -- 58) JMS message retry limit set to 2
+14:26:34,784 INFO  [org.jboss.web] (ServerService Thread Pool -- 58) JBAS018210: Register web context: /business-central
+14:26:34,955 INFO  [solder-servlet] (ServerService Thread Pool -- 58) Catch Integration for Servlets enabled
+14:26:34,988 INFO  [org.jboss.errai.bus.server.cluster.noop.NoopClusteringProvider] (ServerService Thread Pool -- 58) clustering support not configured.
+14:26:34,994 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (ServerService Thread Pool -- 58) starting errai bus ...
+14:26:34,996 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (ServerService Thread Pool -- 58) authentication adapter configured: org.jboss.errai.bus.server.security.auth.JAASAdapter
+14:26:35,001 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (ServerService Thread Pool -- 58) using dispatcher implementation: org.jboss.errai.bus.server.SimpleDispatcher
+14:26:35,004 INFO  [org.jboss.errai.bus.server.service.bootstrap.DefaultComponents] (ServerService Thread Pool -- 58) using session provider implementation: org.jboss.errai.bus.server.HttpSessionProvider
+14:26:35,017 INFO  [org.jboss.errai.bus.server.service.bootstrap.LoadExtensions] (ServerService Thread Pool -- 58) searching for errai extensions ...
+14:26:35,028 INFO  [org.jboss.errai.bus.server.service.bootstrap.OrderedBootstrap] (ServerService Thread Pool -- 58) errai bus started.
+14:26:35,089 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 27) JBAS018559: Deployed "business-central.war" (runtime-name : "business-central.war")
+14:26:35,090 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 27) JBAS018559: Deployed "jboss-mortgage-demo-ws.war" (runtime-name : "jboss-mortgage-demo-ws.war")
+14:26:35,090 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 27) JBAS018559: Deployed "dashbuilder.war" (runtime-name : "dashbuilder.war")
+14:26:35,220 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015961: Http management interface listening on http://127.0.0.1:9990/management
+14:26:35,220 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015951: Admin console listening on http://127.0.0.1:9990
+14:26:35,221 INFO  [org.jboss.as] (Controller Boot Thread) JBAS015874: JBoss BPM Suite 6.0.0.GA (AS 7.2.1.Final-redhat-10) started in 44533ms - Started 652 of 725 services (72 services are passive or on-demand)
+14:26:58,317 ERROR [org.drools.core.xml.ExtensibleXmlParser] (http-localhost/127.0.0.1:8080-6) (null: 3, 53): cvc-complex-type.2.4.a: Invalid content was found starting with element 'bpmn2:documentation'. One of '{"http://www.omg.org/spec/BPMN/20100524/MODEL":import, "http://www.omg.org/spec/BPMN/20100524/MODEL":extension, "http://www.omg.org/spec/BPMN/20100524/MODEL":rootElement, "http://www.omg.org/spec/BPMN/20100524/DI":BPMNDiagram, "http://www.omg.org/spec/BPMN/20100524/MODEL":relationship}' is expected.
+14:26:58,479 INFO  [org.drools.compiler.kie.builder.impl.KieRepositoryImpl] (http-localhost/127.0.0.1:8080-6) KieModule was added:MemoryKieModule[ ReleaseId=com.redhat.process:retail:1.0]
+14:27:02,068 INFO  [org.jbpm.formModeler.service.bb.mvc.controller.ControllerServlet] (http-localhost/127.0.0.1:8080-5) Application Directory: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/.
+14:27:02,068 INFO  [org.jbpm.formModeler.service.bb.mvc.controller.ControllerServlet] (http-localhost/127.0.0.1:8080-5) Application Config Directory: /home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/./WEB-INF/etc
+14:27:03,101 INFO  [org.jbpm.designer.server.EditorHandler] (http-localhost/127.0.0.1:8080-2) Performing diagram information pre-processing steps. 
+14:27:03,101 INFO  [org.jbpm.designer.server.EditorHandler] (http-localhost/127.0.0.1:8080-1) Performing diagram information pre-processing steps. 
+14:27:03,101 INFO  [org.jbpm.designer.server.EditorHandler] (http-localhost/127.0.0.1:8080-3) Performing diagram information pre-processing steps. 
+14:27:03,104 INFO  [org.jbpm.designer.server.EditorHandler] (http-localhost/127.0.0.1:8080-7) Performing diagram information pre-processing steps. 
+14:27:07,525 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Unable to delete file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,526 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Unable to delete file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,529 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Unable to delete file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,525 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Successfully deleted file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,720 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,722 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Successfully deleted file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Rest.svg
+14:27:07,723 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Successfully deleted file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Email.svg
+14:27:07,723 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Successfully deleted file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Log.svg
+14:27:07,723 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Successfully deleted file :/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/WebService.svg
+14:27:07,756 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,759 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,773 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/bpmn2.0jbpm.json
+14:27:07,972 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Log.svg
+14:27:08,005 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Log.svg
+14:27:08,046 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Log.svg
+14:27:08,090 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Log.svg
+14:27:08,268 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Email.svg
+14:27:08,306 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Email.svg
+14:27:08,308 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Email.svg
+14:27:08,343 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Email.svg
+14:27:08,525 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Rest.svg
+14:27:08,587 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Rest.svg
+14:27:08,593 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Rest.svg
+14:27:08,628 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/Rest.svg
+14:27:08,699 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-2) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/WebService.svg
+14:27:08,752 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-3) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/WebService.svg
+14:27:08,774 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-1) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/WebService.svg
+14:27:08,778 INFO  [org.jbpm.designer.web.preprocessing.impl.JbpmPreprocessingUnit] (http-localhost/127.0.0.1:8080-7) Created file:/home/mfentanes/software/bpms-mortgage-demo_respaldo4/target/jboss-eap-6.1/standalone/deployments/business-central.war/org.kie.workbench.KIEWebapp/stencilsets/bpmn2.0jbpm/view/activity/workitems/WebService.svg
+14:27:47,008 INFO  [org.jboss.web] (ServerService Thread Pool -- 78) JBAS018224: Unregister web context: /dashbuilder
+14:27:47,009 INFO  [org.jboss.as.messaging] (ServerService Thread Pool -- 71) JBAS011605: Unbound messaging object to jndi name java:jboss/exported/jms/queue/KIE.AUDIT
+14:27:47,009 INFO  [org.jboss.web] (ServerService Thread Pool -- 77) JBAS018224: Unregister web context: /business-central
+14:27:47,014 INFO  [org.apache.catalina.core] (MSC service thread 1-8) JBWEB001079: Container org.apache.catalina.core.ContainerBase.[jboss.web].[default-host].[/] has not been started
+14:27:47,014 INFO  [org.jboss.web] (ServerService Thread Pool -- 79) JBAS018224: Unregister web context: /jboss-mortgage-demo-ws
+14:27:47,147 INFO  [org.jboss.as.webservices] (MSC service thread 1-2) JBAS015540: Stopping service jboss.ws.endpoint."jboss-mortgage-demo-ws.war"."com.redhat.bpms.examples.mortgage.CreditService"
+14:27:47,148 INFO  [org.jboss.ws.common.management] (MSC service thread 1-2) JBWS022051: Endpoint unregistered: jboss.ws:context=jboss-mortgage-demo-ws,endpoint=com.redhat.bpms.examples.mortgage.CreditService
+14:27:47,171 INFO  [org.jboss.as.webservices] (MSC service thread 1-6) JBAS015540: Stopping service jboss.ws.port-component-link
+14:27:47,186 INFO  [org.jboss.weld.deployer] (MSC service thread 1-2) JBAS016009: Stopping weld service for deployment dashbuilder.war
+14:27:47,239 INFO  [org.jboss.as.jpa] (ServerService Thread Pool -- 74) JBAS011403: Stopping Persistence Unit Service 'business-central.war#org.jbpm.domain'
+14:27:47,240 INFO  [org.jboss.as.connector.deployment] (MSC service thread 1-6) JBAS010410: Unbound JCA ConnectionFactory [java:/JmsXA]
+14:27:47,242 INFO  [org.jboss.weld.deployer] (MSC service thread 1-5) JBAS016009: Stopping weld service for deployment business-central.war
+14:27:47,249 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) JBAS010409: Unbound data source [java:jboss/datasources/ExampleDS]
+14:27:47,263 INFO  [org.hornetq.ra] (MSC service thread 1-6) HQ151003: HornetQ resource adaptor stopped
+14:27:47,284 INFO  [org.jboss.errai.cdi.server.events.ShutdownEventObserver] (MSC service thread 1-5) Shutting down CDI-to-ErraiBus event bridge
+14:27:47,285 INFO  [org.jbpm.executor.impl.ExecutorImpl] (MSC service thread 1-5)  >>>>> Destroying Executor !!!
+14:27:47,306 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment dashbuilder.war (runtime-name: dashbuilder.war) in 331ms
+14:27:47,374 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment business-central.war (runtime-name: business-central.war) in 396ms
+14:27:47,421 INFO  [org.hornetq.core.server] (MSC service thread 1-8) HQ221002: HornetQ Server version 2.3.5.Final-redhat-2 (Monster Bee, 123) [a2f9c2f3-b901-11e3-aa94-9723fa95dba0] stopped
+14:27:47,473 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) JBAS015877: Stopped deployment jboss-mortgage-demo-ws.war (runtime-name: jboss-mortgage-demo-ws.war) in 495ms
+14:27:48,031 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003075: Coyote HTTP/1.1 pausing on: http-localhost/127.0.0.1:8080
+14:27:48,031 INFO  [org.apache.coyote.http11] (MSC service thread 1-4) JBWEB003077: Coyote HTTP/1.1 stopping on : http-localhost/127.0.0.1:8080
+14:27:48,040 INFO  [org.jboss.as] (MSC service thread 1-7) JBAS015950: JBoss BPM Suite 6.0.0.GA (AS 7.2.1.Final-redhat-10) stopped in 1057ms

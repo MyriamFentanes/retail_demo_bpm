@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.helix">
+  <resources>
+
+<resource-root path="helix-core-0.6.2-incubating.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.apache.zookeeper" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="javax.xml.bind.api" export="true"/>
+<module name="org.jboss.log4j.logmanager" export="true"/>
+<module name="org.codehaus.jackson.jackson-core-asl" export="true"/>
+<module name="org.apache.commons.cli" export="true"/>
+<module name="org.codehaus.jackson.jackson-mapper-asl" export="true"/>
+<module name="org.apache.commons.io" export="true"/>
+<module name="org.apache.commons.math" export="true"/>
+<module name="org.kie" export="true"/>
+
+  </dependencies>
+</module>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.sonatype.plexus">
+  <resources>
+
+<resource-root path="plexus-cipher-1.4.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="org.sonatype.sisu" export="true"/>
+<module name="org.sonatype.plexus" export="true"/>
+<module name="org.sonatype.aether" export="true"/>
+
+  </dependencies>
+</module>

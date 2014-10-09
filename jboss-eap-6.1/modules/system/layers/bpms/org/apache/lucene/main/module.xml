@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.lucene">
+  <resources>
+
+<resource-root path="lucene-queries-4.0.0.jar"/>
+<resource-root path="lucene-sandbox-4.0.0.jar"/>
+<resource-root path="lucene-queryparser-4.0.0.jar"/>
+<resource-root path="lucene-analyzers-common-4.0.0.jar"/>
+<resource-root path="lucene-codecs-4.0.0.jar"/>
+<resource-root path="lucene-core-4.0.0.jar"/>
+
+  </resources>
+  <dependencies>
+
+<module name="javax.xml.bind.api" export="true"/>
+<module name="javax.xml.stream.api" export="true"/>
+<module name="org.apache.xmlbeans" export="true"/>
+<module name="javax.transaction.api" export="true"/>
+<module name="javax.security.jacc.api" export="true"/>
+<module name="javax.activation.api" export="true"/>
+<module name="javax.validation.api" export="true"/>
+<module name="org.kie.lib" export="true"/>
+<module name="javax.faces.api" export="true"/>
+<module name="javax.enterprise.api" export="true"/>
+<module name="org.jaxen" export="true"/>
+<module name="javax.servlet.jsp.api" export="true"/>
+<module name="javax.persistence.api" export="true"/>
+<module name="javax.ws.rs.api" export="true"/>
+<module name="javax.wsdl4j.api" export="true"/>
+<module name="javax.ejb.api" export="true"/>
+<module name="javax.servlet.api" export="true"/>
+<module name="javax.jms.api" export="true"/>
+<module name="javax.api" export="true"/>
+
+  </dependencies>
+</module>

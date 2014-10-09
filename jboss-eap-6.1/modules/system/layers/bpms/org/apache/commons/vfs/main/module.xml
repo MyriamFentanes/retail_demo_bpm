@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module xmlns="urn:jboss:module:1.0" name="org.apache.commons.vfs">
+  <resources>
+
+
+  </resources>
+  <dependencies>
+
+<module name="org.kie.lib" export="true"/>
+<module name="org.slf4j.jcl-over-slf4j" export="true"/>
+<module name="org.apache.commons.logging" export="true"/>
+<module name="org.apache.commons.collections" export="true"/>
+<module name="org.apache.xmlbeans" export="true"/>
+<module name="org.apache.ant" export="true"/>
+<module name="org.jaxen" export="true"/>
+<module name="org.apache.commons.net" export="true"/>
+<module name="org.apache.commons.httpclient" export="true"/>
+
+  </dependencies>
+</module>
